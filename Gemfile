@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.2.0.dev"
 
 # Use local checkout of Rails
-gem "rails", path: "/Users/eileencodes/open_source/real_rails"
+gem "rails", github: "rails/rails"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"

@@ -1,5 +1,6 @@
-PATH
-  remote: /Users/eileencodes/open_source/real_rails
+GIT
+  remote: https://github.com/rails/rails.git
+  revision: 532294b39f4436b4e427e5213738071b49f5e030
   specs:
     actioncable (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
